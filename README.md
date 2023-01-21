@@ -1,2 +1,2 @@
-# configs
-A collection of configs to extend from.
+# renovate-config
+A default renovate config to extend from.
