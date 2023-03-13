@@ -2,10 +2,19 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
-    "default:pinVersions",
-    "default:automergeMinor",
-    "default:rebaseStalePrs"
+
+    ":pinVersions",
+    ":automergeMinor",
+    ":rebaseStalePrs",
+
+    "group:linters"
   ],
   "labels": ["dependencies"],
-  "automergeStrategy": "fast-forward"
+  "automergeStrategy": "fast-forward",
+  "packageRules": [
+    {
+      "matchSourceUrlPrefixes": ["https://github.com/discordjs"],
+      "groupName": "discord.js"
+    }
+  ]
 }
