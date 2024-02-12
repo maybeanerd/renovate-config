@@ -11,6 +11,7 @@
   ],
   "labels": ["dependencies"],
   "automergeStrategy": "fast-forward",
+  "bumpVersion": "patch",
   "packageRules": [
     {
       "matchSourceUrlPrefixes": ["https://github.com/discordjs"],
