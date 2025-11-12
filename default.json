@@ -11,6 +11,9 @@
   ],
   "labels": ["dependencies"],
   "automergeStrategy": "fast-forward",
+  "nix": {
+    "enabled": true
+  },
   "packageRules": [
     {
       "matchSourceUrlPrefixes": ["https://github.com/discordjs"],
