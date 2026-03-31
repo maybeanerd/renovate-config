@@ -11,14 +11,11 @@
   ],
   "labels": ["dependencies"],
   "automergeStrategy": "fast-forward",
+  "minimumReleaseAge": "3 days",
   "nix": {
     "enabled": true
   },
   "packageRules": [
-    {
-      "matchSourceUrlPrefixes": ["https://github.com/discordjs"],
-      "groupName": "discord.js"
-    },
     {
       "matchDatasources": ["npm"],
       "minimumReleaseAge": "14 days"
