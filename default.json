@@ -18,6 +18,10 @@
     {
       "matchSourceUrlPrefixes": ["https://github.com/discordjs"],
       "groupName": "discord.js"
+    },
+    {
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "14 days"
     }
   ]
 }
