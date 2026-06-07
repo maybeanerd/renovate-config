@@ -3,13 +3,13 @@
   "extends": [
     "config:recommended",
 
-    ":dependencyDashboardApproval",
     ":pinVersions",
     ":rebaseStalePrs",
 
     "group:linters"
   ],
   "labels": ["dependencies"],
+  "dependencyDashboardApproval": true,
   "automergeStrategy": "fast-forward",
   "minimumReleaseAge": "3 days",
   "nix": {
