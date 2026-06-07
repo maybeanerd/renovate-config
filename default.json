@@ -4,9 +4,7 @@
     "config:recommended",
 
     ":dependencyDashboardApproval",
-
     ":pinVersions",
-    ":automergeMinor",
     ":rebaseStalePrs",
 
     "group:linters"
