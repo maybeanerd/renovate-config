@@ -28,4 +28,5 @@
       "username": "maybeanerd.com",
       "password": "{{ secrets.atcr_app_password }}"
     }
+  ]
 }
