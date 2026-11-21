@@ -20,5 +20,13 @@
       "matchDatasources": ["npm"],
       "minimumReleaseAge": "14 days"
     }
+  ],
+  "hostRules": [
+    {
+      "hostType": "docker",
+      "matchHost": "atcr.io",
+      "username": "maybeanerd.com",
+      "password": "{{ secrets.atcr_app_password }}"
+    }
   ]
 }
